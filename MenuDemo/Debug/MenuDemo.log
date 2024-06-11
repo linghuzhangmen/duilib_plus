@@ -1,0 +1,2 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(D:\MyCode\duilib\MenuDemo\Debug\MenuDemo_d.exe) 与 Linker 的 OutputFile 属性值(D:\MyCode\duilib\bin\MenuDemo_d.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+  MenuDemo.vcxproj -> D:\MyCode\duilib\MenuDemo\Debug\MenuDemo_d.exe

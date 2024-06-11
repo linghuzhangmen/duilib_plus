@@ -1,0 +1,19 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Main.cpp
+D:\MyCode\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+  (编译源文件“Main.cpp”)
+  
+D:\MyCode\duilib\ListDemo\MenuWnd.h(62,27): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  (编译源文件“Main.cpp”)
+  
+D:\MyCode\duilib\ListDemo\MenuWnd.h(62,36): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  (编译源文件“Main.cpp”)
+  
+D:\MyCode\duilib\ListDemo\Main.cpp(124,21): warning C4858: 正在放弃返回值: This member function returns a bool indicating whether the container is empty and has no other effects. It is not useful to call this member function and discard the return value. Use the 'clear()' member function if you want to erase all elements.
+D:\MyCode\duilib\ListDemo\Main.cpp(126,19): warning C4858: 正在放弃返回值: This member function returns a bool indicating whether the container is empty and has no other effects. It is not useful to call this member function and discard the return value. Use the 'clear()' member function if you want to erase all elements.
+D:\MyCode\duilib\ListDemo\Main.cpp(147,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\MyCode\duilib\ListDemo\Main.cpp(159,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\MyCode\duilib\ListDemo\Main.cpp(173,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(D:\MyCode\duilib\bin\ListDemo.exe) 与 Linker 的 OutputFile 属性值(D:\MyCode\duilib\bin\ListDemo_d.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(ListDemo) 与 Linker 的 OutputFile 属性值(ListDemo_d)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+  ListDemo.vcxproj -> D:\MyCode\duilib\bin\ListDemo.exe
